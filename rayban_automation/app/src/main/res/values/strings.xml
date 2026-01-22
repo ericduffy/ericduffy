@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RayBan Automation</string>
+    
+    <!-- Shortcut Strings -->
+    <string name="shortcut_call_wife_short">Call Wife</string>
+    <string name="shortcut_call_wife_long">Start WhatsApp call to Wife</string>
+    <string name="shortcut_open_gate_short">Open Gate</string>
+    <string name="shortcut_open_gate_long">Call the Gate Number</string>
+    
+    <!-- UI Strings -->
+    <string name="title_permissions">Permissions Required</string>
+    <string name="desc_permissions">This app needs Contacts and Phone permissions to function.</string>
+    <string name="btn_call_wife">Call Wife (WhatsApp)</string>
+    <string name="btn_open_gate">Open Gate (Call)</string>
+    <string name="btn_grant_permissions">Grant Permissions</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="call_wife"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_call_wife_short"
+        android:shortcutLongLabel="@string/shortcut_call_wife_long">
+        <intent
+            android:action="com.ericduffy.raybanautomation.ACTION_CALL_WIFE"
+            android:targetPackage="com.ericduffy.raybanautomation"
+            android:targetClass="com.ericduffy.raybanautomation.MainActivity" />
+    </shortcut>
+    
+    <shortcut
+        android:shortcutId="open_gate"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_open_gate_short"
+        android:shortcutLongLabel="@string/shortcut_open_gate_long">
+        <intent
+            android:action="com.ericduffy.raybanautomation.ACTION_OPEN_GATE"
+            android:targetPackage="com.ericduffy.raybanautomation"
+            android:targetClass="com.ericduffy.raybanautomation.MainActivity" />
+    </shortcut>
+</shortcuts>
